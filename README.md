@@ -66,12 +66,13 @@
 
   <h3>After a level is completed, call the API.</h3>
   <div class="code-box">
-
+<pre><code>
     -(void) onLevelComplete{
        SocialScoresManager * scoreManager = [SocialScoresManager sharedManager];
        NSDictionary * options = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects: [NSNumber numberWithInt:score], nil] forKeys:[NSArray arrayWithObjects:@"score", nil]]; <
        [scoreManager showTopScoresForLevel:@"Level 1" inViewController:self withOptions:options];
     }
+</code></pre>
   </div>
   <p>This will save the player's score, and display a leader board for this level. The player will be able to see how their score ranks amongst their friends or the whole community. They will be able to share the scoreboard on their facebook wall.</p>
 
