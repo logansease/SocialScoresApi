@@ -66,7 +66,7 @@
 
   <h3>After a level is completed, call the API.</h3>
   <div class="code-box">
-```
+```c++
 -(void) onLevelComplete{
    SocialScoresManager * scoreManager = [SocialScoresManager sharedManager];
    NSDictionary * options = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects: [NSNumber numberWithInt:score], nil] forKeys:[NSArray arrayWithObjects:@"score", nil]]; <
