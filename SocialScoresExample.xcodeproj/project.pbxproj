@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0012CC0A15C2DBEE00633FA1 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 0012CC0915C2DBEE00633FA1 /* README */; };
 		0012CC2E15C2DE5300633FA1 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 0012CC2B15C2DE5300633FA1 /* close.png */; };
 		0012CC2F15C2DE5300633FA1 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0012CC2C15C2DE5300633FA1 /* close@2x.png */; };
 		0012CC3015C2DE5300633FA1 /* fbicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0012CC2D15C2DE5300633FA1 /* fbicon.png */; };
@@ -26,6 +25,30 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		87E3020815C583EA00DCED10 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC3315C2DE7F00633FA1 /* NSObject+SBJSON.m */; };
+		87E3020915C583EA00DCED10 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC3515C2DE7F00633FA1 /* NSString+SBJSON.m */; };
+		87E3020A15C583EA00DCED10 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC3715C2DE7F00633FA1 /* SBJSON.m */; };
+		87E3020B15C583EA00DCED10 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC3915C2DE7F00633FA1 /* SBJsonBase.m */; };
+		87E3020C15C583EA00DCED10 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC3B15C2DE7F00633FA1 /* SBJsonParser.m */; };
+		87E3020D15C583EA00DCED10 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC3D15C2DE7F00633FA1 /* SBJsonWriter.m */; };
+		87E3020E15C583EA00DCED10 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC4115C2DF9B00633FA1 /* Reachability.m */; };
+		87E3020F15C583EA00DCED10 /* PopupService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC4A15C2DFC000633FA1 /* PopupService.m */; };
+		87E3021015C583EA00DCED10 /* ScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC4C15C2DFC000633FA1 /* ScoresViewController.m */; };
+		87E3021115C583EA00DCED10 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC4E15C2DFC000633FA1 /* SettingsController.m */; };
+		87E3021215C583EA00DCED10 /* SocialScoresConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC5015C2DFC000633FA1 /* SocialScoresConfig.m */; };
+		87E3021315C583EA00DCED10 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC0C15C2DDF000633FA1 /* ASIAuthenticationDialog.m */; };
+		87E3021415C583EA00DCED10 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC0F15C2DDF000633FA1 /* ASIDataCompressor.m */; };
+		87E3021515C583EA00DCED10 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC1115C2DDF000633FA1 /* ASIDataDecompressor.m */; };
+		87E3021615C583EA00DCED10 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC1315C2DDF000633FA1 /* ASIDownloadCache.m */; };
+		87E3021715C583EA00DCED10 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC1515C2DDF000633FA1 /* ASIFormDataRequest.m */; };
+		87E3021815C583EA00DCED10 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC1715C2DDF000633FA1 /* ASIHTTPRequest.m */; };
+		87E3021915C583EA00DCED10 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC1B15C2DDF000633FA1 /* ASIInputStream.m */; };
+		87E3021A15C583EA00DCED10 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC1D15C2DDF000633FA1 /* ASINetworkQueue.m */; };
+		87E3021B15C583EA00DCED10 /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC2015C2DE3000633FA1 /* Facebook.m */; };
+		87E3021C15C583EA00DCED10 /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC2415C2DE3000633FA1 /* FBDialog.m */; };
+		87E3021D15C583EA00DCED10 /* FBFrictionlessRequestSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC2615C2DE3000633FA1 /* FBFrictionlessRequestSettings.m */; };
+		87E3021E15C583EA00DCED10 /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC2815C2DE3000633FA1 /* FBLoginDialog.m */; };
+		87E3021F15C583EA00DCED10 /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012CC2A15C2DE3000633FA1 /* FBRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,7 +64,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0012CC0915C2DBEE00633FA1 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		0012CC0B15C2DDF000633FA1 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ASIAuthenticationDialog.h; path = ASIHTTP/ASIAuthenticationDialog.h; sourceTree = "<group>"; };
 		0012CC0C15C2DDF000633FA1 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ASIAuthenticationDialog.m; path = ASIHTTP/ASIAuthenticationDialog.m; sourceTree = "<group>"; };
 		0012CC0D15C2DDF000633FA1 /* ASICacheDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ASICacheDelegate.h; path = ASIHTTP/ASICacheDelegate.h; sourceTree = "<group>"; };
@@ -309,7 +331,6 @@
 			isa = PBXGroup;
 			children = (
 				0073AE00155A1E3C004B874A /* SocialScoresExample-Info.plist */,
-				0012CC0915C2DBEE00633FA1 /* README */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -387,7 +408,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				00216ACB155A0AE400BA4EB1 /* ViewController.xib in Resources */,
-				0012CC0A15C2DBEE00633FA1 /* README in Resources */,
 				0012CC2E15C2DE5300633FA1 /* close.png in Resources */,
 				0012CC2F15C2DE5300633FA1 /* close@2x.png in Resources */,
 				0012CC3015C2DE5300633FA1 /* fbicon.png in Resources */,
@@ -401,6 +421,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87E3020815C583EA00DCED10 /* NSObject+SBJSON.m in Sources */,
+				87E3020915C583EA00DCED10 /* NSString+SBJSON.m in Sources */,
+				87E3020A15C583EA00DCED10 /* SBJSON.m in Sources */,
+				87E3020B15C583EA00DCED10 /* SBJsonBase.m in Sources */,
+				87E3020C15C583EA00DCED10 /* SBJsonParser.m in Sources */,
+				87E3020D15C583EA00DCED10 /* SBJsonWriter.m in Sources */,
+				87E3020E15C583EA00DCED10 /* Reachability.m in Sources */,
+				87E3020F15C583EA00DCED10 /* PopupService.m in Sources */,
+				87E3021015C583EA00DCED10 /* ScoresViewController.m in Sources */,
+				87E3021115C583EA00DCED10 /* SettingsController.m in Sources */,
+				87E3021215C583EA00DCED10 /* SocialScoresConfig.m in Sources */,
+				87E3021315C583EA00DCED10 /* ASIAuthenticationDialog.m in Sources */,
+				87E3021415C583EA00DCED10 /* ASIDataCompressor.m in Sources */,
+				87E3021515C583EA00DCED10 /* ASIDataDecompressor.m in Sources */,
+				87E3021615C583EA00DCED10 /* ASIDownloadCache.m in Sources */,
+				87E3021715C583EA00DCED10 /* ASIFormDataRequest.m in Sources */,
+				87E3021815C583EA00DCED10 /* ASIHTTPRequest.m in Sources */,
+				87E3021915C583EA00DCED10 /* ASIInputStream.m in Sources */,
+				87E3021A15C583EA00DCED10 /* ASINetworkQueue.m in Sources */,
+				87E3021B15C583EA00DCED10 /* Facebook.m in Sources */,
+				87E3021C15C583EA00DCED10 /* FBDialog.m in Sources */,
+				87E3021D15C583EA00DCED10 /* FBFrictionlessRequestSettings.m in Sources */,
+				87E3021E15C583EA00DCED10 /* FBLoginDialog.m in Sources */,
+				87E3021F15C583EA00DCED10 /* FBRequest.m in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				00216ACA155A0AE400BA4EB1 /* ViewController.m in Sources */,
@@ -417,7 +461,10 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../Downloads/Sparkle 1.5b6(1)\"",
+					"\"$(SRCROOT)\"",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -427,13 +474,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "SocialScoresExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../Ideas/build/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Desktop\"",
-					"\"$(SRCROOT)/SocialScores\"",
-				);
+				LIBRARY_SEARCH_PATHS = SocialScores/;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -450,7 +491,10 @@
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../Downloads/Sparkle 1.5b6(1)\"",
+					"\"$(SRCROOT)\"",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -458,13 +502,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "SocialScoresExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../Ideas/build/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Desktop\"",
-					"\"$(SRCROOT)/SocialScores\"",
-				);
+				LIBRARY_SEARCH_PATHS = SocialScores/;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
