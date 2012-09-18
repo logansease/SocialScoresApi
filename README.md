@@ -69,7 +69,7 @@
 <pre><code>
     -(void) onLevelComplete{
        SocialScoresManager * scoreManager = [SocialScoresManager sharedManager];
-       NSDictionary * options = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects: [NSNumber numberWithInt:score], nil] forKeys:[NSArray arrayWithObjects:@"score", nil]]; <
+       NSDictionary * options = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects: [NSNumber numberWithInt:score], nil] forKeys:[NSArray arrayWithObjects:@"score", nil]]; 
        [scoreManager showTopScoresForLevel:@"Level 1" inViewController:self withOptions:options];
     }
 </code></pre>
